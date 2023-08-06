@@ -1,0 +1,48 @@
+Circuit: * C:\Users\acham\Documents\UoM\Sem 3\EN2091_Laboratory Practice and Projects\Lab Project\Simulation\Final.asc
+
+WARNING: Less than two connections to node N018.  This node is used by R26.
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+vernier = 0.5
+vernier = 0.666667
+Gmin = 4.98766e-005
+vernier = 0.888888
+vernier = 1
+Gmin = 7.53781e-006
+Gmin = 8.09366e-007
+Gmin = 8.6905e-008
+Gmin = 9.33136e-009
+Gmin = 1.00195e-009
+Gmin = 1.07583e-010
+Gmin = 1.15517e-011
+Gmin = 1.24035e-012
+Gmin = 1.33182e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+Date: Sun Feb 26 09:59:57 2023
+Total elapsed time: 0.194 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2627
+traniter = 2120
+tranpoints = 1061
+accept = 1058
+rejected = 3
+matrix size = 75
+fillins = 150
+solver = Normal
+Thread vector: 18.9/10.2[8] 7.7/3.5[8] 4.9/2.6[8] 0.3/0.9[1]  2592/500
+Matrix Compiler1: 24.69 KB object code size  4.0/2.0/[1.1]
+Matrix Compiler2: 11.65 KB object code size  1.1/1.1/[0.4]
+

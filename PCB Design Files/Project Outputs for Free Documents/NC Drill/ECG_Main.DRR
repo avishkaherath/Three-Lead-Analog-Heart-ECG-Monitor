@@ -1,0 +1,24 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: ECG_Main.PcbDoc   2/8/2023  10:24:58 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : ECG_Main.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             8         PTH        93.01mm (3.66inch)
+T2      0.7mm (28mil)                                             Round             6         PTH        28.91mm (1.14inch)
+T3      0.71mm (28mil)                                            Round             9         PTH        27.24mm (1.07inch)
+T4      0.78mm (31mil)                                            Round             64        PTH        309.25mm (12.18inch)
+T5      0.8mm (31mil)                                             Round             4         PTH        13.00mm (0.51inch)
+T6      0.85mm (33mil)                                            Round             62        PTH        458.75mm (18.06inch)
+T7      0.86mm (34mil)                                            Round             6         PTH        84.87mm (3.34inch)
+T8      0.9mm (35mil)                                             Round             38        PTH        151.06mm (5.95inch)
+T9      1.016mm (40mil)                                           Round             1         PTH        0.00mm (0.00inch)
+T10     2.25mm (89mil)                                            Round             4         NPTH       102.00mm (4.02inch)
+T11     3mm (118mil)                                              Round             4         NPTH       136.69mm (5.38inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              206
+
+Total Processing Time (hh:mm:ss) : 00:00:00

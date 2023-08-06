@@ -1,0 +1,5 @@
+DRC Rules Export File for PCB: C:\Users\Public\Documents\Altium\Heart ECG Monitor\ECG_Regulator.PcbDoc
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=35.43
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=31.50
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

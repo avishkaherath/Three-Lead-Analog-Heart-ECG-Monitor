@@ -1,0 +1,59 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Public\Documents\Altium\Heart ECG Monitor\ECG_Regulator.PcbDoc
+Date     : 2/21/2023
+Time     : 4:34:13 PM
+
+Processing Rule : Clearance Constraint (Gap=0.8mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Track (175mm,25mm)(175mm,51.5mm) on Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (74mm,25mm)(175mm,25mm) on Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (74mm,25mm)(74mm,51.5mm) on Bottom Layer Dead Copper - Net Not Assigned.
+   Violation between Un-Routed Net Constraint: Track (74mm,51.5mm)(175mm,51.5mm) on Bottom Layer Dead Copper - Net Not Assigned.
+Rule Violations :4
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.9mm) (Max=0.9mm) (Preferred=0.9mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad Free-17(77mm,37.5mm) on Multi-Layer Actual Hole Size = 3mm
+   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad Free-18(172mm,37.5mm) on Multi-Layer Actual Hole Size = 3mm
+   Violation between Hole Size Constraint: (3mm > 2.54mm) Pad Free-19(125mm,37.5mm) on Multi-Layer Actual Hole Size = 3mm
+Rule Violations :3
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (0.175mm < 0.254mm) Between Pad CM1-1(142.5mm,34.75mm) on Multi-Layer And Track (140.2mm,35.875mm)(144.8mm,35.875mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.175mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.175mm < 0.254mm) Between Pad CM2-1(152mm,34.5mm) on Multi-Layer And Track (149.7mm,35.625mm)(154.3mm,35.625mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.175mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.175mm < 0.254mm) Between Pad CM3-1(152mm,41mm) on Multi-Layer And Track (149.7mm,39.875mm)(154.3mm,39.875mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.175mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.175mm < 0.254mm) Between Pad CM4-1(142.5mm,42.75mm) on Multi-Layer And Track (140.2mm,43.875mm)(144.8mm,43.875mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.175mm]
+Rule Violations :4
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 11
+Waived Violations : 0
+Time Elapsed        : 00:00:01

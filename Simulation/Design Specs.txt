@@ -1,0 +1,15 @@
+Filter		Lower cutoff		Upper cutoff		Gain				Order
+
+Notch			39.941 Hz			62.0634 Hz			1				2
+
+HPF			68.3582 mHz			-				1				2
+
+LPF			-				147.678 Hz			2				2
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Instrumentation Differential Mode						110
+
+Instrumentation Common Mode							2.38407e-006
+
+Summing Amplifier							min - 1.04853	max - 21.603

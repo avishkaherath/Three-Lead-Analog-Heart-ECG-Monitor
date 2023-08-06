@@ -1,0 +1,66 @@
+Circuit: * C:\Users\acham\Documents\UoM\Sem 3\EN2091_Laboratory Practice and Projects\Lab Project\Simulation\50Hz_Notch_Filter.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 1.02385
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+Gmin = 1.01955
+vernier = 0.0078125
+vernier = 0.00390625
+Gmin = 1.01162
+vernier = 0.00520833
+vernier = 0.00260417
+vernier = 0.00130208
+Gmin = 1.00801
+vernier = 0.00173611
+vernier = 0.000868055
+Gmin = 1.00593
+vernier = 0.00115741
+vernier = 0.000578703
+vernier = 0.000771604
+Gmin = 1.00452
+vernier = 0.000578703
+vernier = 0.000434027
+Gmin = 1.00373
+vernier = 0.000578703
+vernier = 0.000434027
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
+
+
+gain: AVG(mag(v(n002)))=1.02531 FROM 0.01 TO 10
+f1: frequency=(32.0284dB,0°) at 39.941
+f2: frequency=(35.8567dB,0°) at 62.0634
+
+
+Date: Sat Feb 25 23:10:09 2023
+Total elapsed time: 0.128 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 5376
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 18
+fillins = 12
+solver = Normal
+Matrix Compiler1:      96 opcodes
+Matrix Compiler2: off  [0.1]/0.2/0.2
+

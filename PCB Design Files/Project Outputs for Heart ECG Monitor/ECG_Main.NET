@@ -1,0 +1,269 @@
+Wire List
+
+<<< Component List >>>
+0.68uF                          C1             FP-RCE0DB-MFG
+0.68uF                          C2             FP-RCE0DB-MFG
+100uF                           C3             FP-RAD-TH-D_6_3_0_5-L_11-MFG
+100uF                           C4             FP-RAD-TH-D_6_3_0_5-L_11-MFG
+68nF                            C5             CAPRR750W60L1030T450H750
+47nF                            C6             FP-RCE0DB-MFG
+SLW-103-01-G-S                  J1             SMTC-SLW-103-01-X-S
+SLW-103-01-G-S                  J2             SMTC-SLW-103-01-X-S
+MFR-25FBF52-100K                R1             RESA60-630X240
+MFR-25FBF52-100K                R2             RESA60-630X240
+MFR-25FBF52-10K                 R3             RESA60-630X240
+MFR-25FBF52-47K5                R4             RESA60-630X240
+MFR-25FBF52-47K5                R5             RESA60-630X240
+MFR-25FBF52-1M                  R6             RESA60-630X240
+MFR-25FBF52-1M                  R7             RESA60-630X240
+MFR-25FBF52-4K75                R8             RESA60-630X240
+MFR-25FBF52-4K75                R9             RESA60-630X240
+MFR-25FBF52-47K5                R10            RESA60-630X240
+MFR-25FBF52-47K5                R11            RESA60-630X240
+MFR-25FBF52-47R5                R12            RESA60-630X240
+MFR-25FBF52-47R5                R13            RESA60-630X240
+MFR-25FBF52-47R5                R14            RESA60-630X240
+MFR-25FBF52-47R5                R15            RESA60-630X240
+MFR-25FBF52-47R5                R16            RESA60-630X240
+MFR-25FBF52-47R5                R17            RESA60-630X240
+MFR-25FBF52-47R5                R18            RESA60-630X240
+MFR-25FBF52-47R5                R19            RESA60-630X240
+MFR-25FBF52-47R5                R20            RESA60-630X240
+MFR-25FBF52-10K                 R21            RESA60-630X240
+MFR-25FBF52-10K                 R22            RESA60-630X240
+MFR-25FBF52-10K                 R23            RESA60-630X240
+MFR-25FBF52-10K                 R25            RESA60-630X240
+MFR-25FBF52-10K                 R26            RESA60-630X240
+MFR-25FBF52-10K                 R27            RESA60-630X240
+MFR-25FBF52-10K                 R28            RESA60-630X240
+MFR-25FBF52-10K                 R29            RESA60-630X240
+MFR-25FBF52-10K                 R30            RESA60-630X240
+MFR-25FBF52-10K                 R31            RESA60-630X240
+OP07CP                          U1             DIP794W45P254L959H508Q8
+OP07CP                          U2             DIP794W45P254L959H508Q8
+OP07CP                          U3             DIP794W45P254L959H508Q8
+OP07CP                          U4             DIP794W45P254L959H508Q8
+TL072BCP                        U5             DIP794W45P254L959H508Q8
+TL072BCP                        U6             DIP794W45P254L959H508Q8
+TL072BCP                        U7             DIP794W45P254L959H508Q8
+OP07CP                          U8             DIP794W45P254L959H508Q8
+ESP32_NODEMCU                   U9             MODULE_ESP32_NODEMCU
+100k                            VR1            TRIM_3296W-OT1-103
+100k                            VR2            TRIM_3296W-OT1-103
+20k                             VR3            TRIM_3296W-OT1-103
+
+<<< Wire List >>>
+
+  NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
+
+[00001] +6V
+        J2         3       3              PASSIVE     SLW-103-01-G-S
+        U1         7       VCC+           POWER       OP07CP
+        U2         7       VCC+           POWER       OP07CP
+        U3         7       VCC+           POWER       OP07CP
+        U4         7       VCC+           POWER       OP07CP
+        U5         8       VCC+           POWER       TL072BCP
+        U6         8       VCC+           POWER       TL072BCP
+        U7         8       VCC+           POWER       TL072BCP
+        U8         7       VCC+           POWER       OP07CP
+        VR2        1       CCW            PASSIVE     100k
+
+[00002] -6V
+        J2         1       1              PASSIVE     SLW-103-01-G-S
+        U1         4       VCC-           POWER       OP07CP
+        U2         4       VCC-           POWER       OP07CP
+        U3         4       VCC-           POWER       OP07CP
+        U4         4       VCC-           POWER       OP07CP
+        U5         4       VCC-           POWER       TL072BCP
+        U6         4       VCC-           POWER       TL072BCP
+        U7         4       VCC-           POWER       TL072BCP
+        U8         4       VCC-           POWER       OP07CP
+
+[00003] AMP_IN
+        C6         1       1              PASSIVE     47nF
+        R27        1       1              PASSIVE     MFR-25FBF52-10K
+        U6         7       2OUT           OUTPUT      TL072BCP
+        U7         5       2IN+           INPUT       TL072BCP
+
+[00004] ECG_OUT
+        R29        1       1              PASSIVE     MFR-25FBF52-10K
+        U8         6       OUT            OUTPUT      OP07CP
+
+[00005] GND
+        C5         2       2              PASSIVE     68nF
+        J2         2       2              PASSIVE     SLW-103-01-G-S
+        R18        2       2              PASSIVE     MFR-25FBF52-47R5
+        R20        2       2              PASSIVE     MFR-25FBF52-47R5
+        R23        2       2              PASSIVE     MFR-25FBF52-10K
+        R26        2       2              PASSIVE     MFR-25FBF52-10K
+        R30        1       1              PASSIVE     MFR-25FBF52-10K
+        U4         3       1IN_+          INPUT       OP07CP
+        U5         3       1IN_+          INPUT       TL072BCP
+        VR2        3       CW             PASSIVE     100k
+        VR3        1       CCW            PASSIVE     20k
+
+[00006] HPF_IN
+        C4         1       C              PASSIVE     100uF
+        R14        2       2              PASSIVE     MFR-25FBF52-47R5
+        R16        2       2              PASSIVE     MFR-25FBF52-47R5
+        U5         7       2OUT           OUTPUT      TL072BCP
+
+[00007] IN1
+        J1         1       1              PASSIVE     SLW-103-01-G-S
+        U1         3       1IN_+          INPUT       OP07CP
+
+[00008] IN2
+        J1         2       2              PASSIVE     SLW-103-01-G-S
+        U2         3       1IN_+          INPUT       OP07CP
+
+[00009] IN3
+        J1         3       3              PASSIVE     SLW-103-01-G-S
+        R6         2       2              PASSIVE     MFR-25FBF52-1M
+        R7         2       2              PASSIVE     MFR-25FBF52-1M
+
+[00010] LPF_IN
+        R19        2       2              PASSIVE     MFR-25FBF52-47R5
+        R21        2       2              PASSIVE     MFR-25FBF52-10K
+        U6         1       1OUT           OUTPUT      TL072BCP
+        U6         2       1IN-           INPUT       TL072BCP
+
+[00011] NetC1_1
+        C1         1       1              PASSIVE     0.68uF
+        C2         2       2              PASSIVE     0.68uF
+        R17        2       2              PASSIVE     MFR-25FBF52-47R5
+        U5         5       2IN+           INPUT       TL072BCP
+
+[00012] NetC2_1
+        C2         1       1              PASSIVE     0.68uF
+        R18        1       1              PASSIVE     MFR-25FBF52-47R5
+
+[00013] NetC3_1
+        C3         1       C              PASSIVE     100uF
+        C4         2       A              PASSIVE     100uF
+        R19        1       1              PASSIVE     MFR-25FBF52-47R5
+
+[00014] NetC3_2
+        C3         2       A              PASSIVE     100uF
+        R20        1       1              PASSIVE     MFR-25FBF52-47R5
+        U6         3       1IN_+          INPUT       TL072BCP
+
+[00015] NetC5_1
+        C5         1       1              PASSIVE     68nF
+        R22        1       1              PASSIVE     MFR-25FBF52-10K
+        U6         5       2IN+           INPUT       TL072BCP
+
+[00016] NetC6_2
+        C6         2       2              PASSIVE     47nF
+        R21        1       1              PASSIVE     MFR-25FBF52-10K
+        R22        2       2              PASSIVE     MFR-25FBF52-10K
+
+[00017] NetR1_1
+        R1         1       1              PASSIVE     MFR-25FBF52-100K
+        U1         6       OUT            OUTPUT      OP07CP
+
+[00018] NetR1_2
+        R1         2       2              PASSIVE     MFR-25FBF52-100K
+        R3         2       2              PASSIVE     MFR-25FBF52-10K
+        R4         1       1              PASSIVE     MFR-25FBF52-47K5
+        R8         1       1              PASSIVE     MFR-25FBF52-4K75
+        U1         2       1IN-           INPUT       OP07CP
+
+[00019] NetR2_1
+        R2         1       1              PASSIVE     MFR-25FBF52-100K
+        U2         6       OUT            OUTPUT      OP07CP
+
+[00020] NetR2_2
+        R2         2       2              PASSIVE     MFR-25FBF52-100K
+        R3         1       1              PASSIVE     MFR-25FBF52-10K
+        R5         2       2              PASSIVE     MFR-25FBF52-47K5
+        R9         1       1              PASSIVE     MFR-25FBF52-4K75
+        U2         2       1IN-           INPUT       OP07CP
+
+[00021] NetR4_2
+        R4         2       2              PASSIVE     MFR-25FBF52-47K5
+        R5         1       1              PASSIVE     MFR-25FBF52-47K5
+        R7         1       1              PASSIVE     MFR-25FBF52-1M
+        U4         2       1IN-           INPUT       OP07CP
+
+[00022] NetR6_1
+        R6         1       1              PASSIVE     MFR-25FBF52-1M
+        U4         6       OUT            OUTPUT      OP07CP
+
+[00023] NetR8_2
+        R8         2       2              PASSIVE     MFR-25FBF52-4K75
+        R10        1       1              PASSIVE     MFR-25FBF52-47K5
+        U3         2       1IN-           INPUT       OP07CP
+
+[00024] NetR9_2
+        R9         2       2              PASSIVE     MFR-25FBF52-4K75
+        R11        1       1              PASSIVE     MFR-25FBF52-47K5
+        U3         3       1IN_+          INPUT       OP07CP
+
+[00025] NetR11_2
+        R11        2       2              PASSIVE     MFR-25FBF52-47K5
+        VR3        2       WIPER          PASSIVE     20k
+
+[00026] NetR12_2
+        R12        2       2              PASSIVE     MFR-25FBF52-47R5
+        R13        1       1              PASSIVE     MFR-25FBF52-47R5
+        R14        1       1              PASSIVE     MFR-25FBF52-47R5
+        U5         2       1IN-           INPUT       TL072BCP
+
+[00027] NetR13_2
+        R13        2       2              PASSIVE     MFR-25FBF52-47R5
+        U5         1       1OUT           OUTPUT      TL072BCP
+
+[00028] NetR15_2
+        R15        2       2              PASSIVE     MFR-25FBF52-47R5
+        R16        1       1              PASSIVE     MFR-25FBF52-47R5
+        U5         6       2IN-           INPUT       TL072BCP
+
+[00029] NetR23_1
+        R23        1       1              PASSIVE     MFR-25FBF52-10K
+        R27        2       2              PASSIVE     MFR-25FBF52-10K
+        U6         6       2IN-           INPUT       TL072BCP
+
+[00030] NetR25_1
+        R25        1       1              PASSIVE     MFR-25FBF52-10K
+        R31        2       2              PASSIVE     MFR-25FBF52-10K
+        U7         7       2OUT           OUTPUT      TL072BCP
+
+[00031] NetR25_2
+        R25        2       2              PASSIVE     MFR-25FBF52-10K
+        VR1        3       CW             PASSIVE     100k
+
+[00032] NetR26_1
+        R26        1       1              PASSIVE     MFR-25FBF52-10K
+        VR1        1       CCW            PASSIVE     100k
+
+[00033] NetR28_1
+        R28        1       1              PASSIVE     MFR-25FBF52-10K
+        R31        1       1              PASSIVE     MFR-25FBF52-10K
+        U8         3       1IN_+          INPUT       OP07CP
+
+[00034] NetR28_2
+        R28        2       2              PASSIVE     MFR-25FBF52-10K
+        U7         1       1OUT           OUTPUT      TL072BCP
+        U7         2       1IN-           INPUT       TL072BCP
+
+[00035] NetR29_2
+        R29        2       2              PASSIVE     MFR-25FBF52-10K
+        R30        2       2              PASSIVE     MFR-25FBF52-10K
+        U8         2       1IN-           INPUT       OP07CP
+
+[00044] NetU7_3
+        U7         3       1IN_+          INPUT       TL072BCP
+        VR2        2       WIPER          PASSIVE     100k
+
+[00045] NetU7_6
+        U7         6       2IN-           INPUT       TL072BCP
+        VR1        2       WIPER          PASSIVE     100k
+
+[00087] Notch_IN
+        C1         2       2              PASSIVE     0.68uF
+        R10        2       2              PASSIVE     MFR-25FBF52-47K5
+        R12        1       1              PASSIVE     MFR-25FBF52-47R5
+        R15        1       1              PASSIVE     MFR-25FBF52-47R5
+        R17        1       1              PASSIVE     MFR-25FBF52-47R5
+        U3         6       OUT            OUTPUT      OP07CP
+

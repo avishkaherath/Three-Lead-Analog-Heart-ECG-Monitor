@@ -10,7 +10,7 @@ After noise reduction, the signal undergoes further refinement through a low-pas
 <p align="center"> <img src="https://github.com/avishkaherath/Three-Lead-Analog-Heart-ECG-Monitor/blob/main/Images/ECG%20Waveform.jpg" width="600"> </p>
 
 ## Internal View
-<p align="center"> <img src="https://github.com/avishkaherath/Three-Lead-Analog-Heart-ECG-Monitor/blob/main/Images/Internal%20View.jpg" width="500"> </p>
+<p align="center"> <img src="https://github.com/avishkaherath/Three-Lead-Analog-Heart-ECG-Monitor/blob/main/Images/Internal%20View.jpg" width="600"> </p>
 
 ## PCB Design
-<p align="center"> <img src="https://github.com/avishkaherath/Three-Lead-Analog-Heart-ECG-Monitor/blob/main/Images/PCB.jpg" width="300"> </p>
+<p align="center"> <img src="https://github.com/avishkaherath/Three-Lead-Analog-Heart-ECG-Monitor/blob/main/Images/PCB.jpg" width="250"> </p>
